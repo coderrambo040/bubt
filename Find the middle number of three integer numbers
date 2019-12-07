@@ -1,0 +1,33 @@
+#include <stdio.h>
+int main()
+{
+    int x,y,z;
+    printf("Code Write by ID:19201103040\nEnter Three Numer\n");
+    scanf("%d %d %d",&x,&y,&z);
+
+    if(x>y){
+        if(y>z){
+        printf("%d Yor Middel Number",y);
+    }
+    else if(z>x){
+        printf("%d Yor Middel Number",x);
+    }
+    else{
+        printf("%d Yor Middel Number",z);
+    }
+    }
+    else{
+        if(y<z){
+        printf("%d Yor Middel Number",y);
+    }
+    else if(z<x){
+        printf("%d Yor Middel Number",x);
+    }
+    else{
+        printf("%d Yor Middel Number",z);
+    }
+    }
+    printf("\nThank's for using my Code");
+
+    return 0;
+}
